@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center" android:orientation="vertical">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Sayısal Analiz"
+              android:textStyle="bold|italic"
+              android:fontFamily="casual"
+              android:textSize="50dp"
+              android:textAlignment="center"
+              android:textColor="@color/colorPrimary"
+    />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İkiye Bölünme"
+            android:id="@+id/btn_iki"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sabit Nokta"
+            android:id="@+id/btn_sabit"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Newton-Raphson"
+            android:id="@+id/btn_newton"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secont"
+            android:id="@+id/btn_secont"
+    />
+</LinearLayout>
